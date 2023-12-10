@@ -1,0 +1,91 @@
+
+html, body {
+    background-color: #ced0d8;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+.header h1:first-letter {
+    color: aquamarine;
+}
+
+.header, footer {
+    background-color: #1c1e1c;
+    padding: 24px 16px;
+}
+
+.header h1 {
+    margin: 0;
+    color: #ced0d8;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 500;
+    font-kerning: normal;
+}
+
+.header nav {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+footer > h4 {
+    margin: 0;
+    color: rgba(0, 255, 255, 0.45);
+    padding: 8px 16px;
+}
+
+[class^="navigation-item"] {
+    opacity: .8;
+    color: #a2a9b9;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 8px 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+[class^="navigation-item"]:hover {
+    color: #a2a9b9;
+    opacity: .9;
+}
+
+[class$="btn"] {
+    background-color: aquamarine;
+    border-radius: 16px;
+    color: #373b39;
+}
+
+
+[class$="btn-blue"] {
+    background-color: aqua;
+    border-radius: 16px;
+    color: #373b39;
+    margin-right: 32px;
+}
+
+main {
+    margin: 148px 16px 16px 16px;
+}
+

@@ -1,0 +1,43 @@
+.form {
+    margin: 64px auto;
+    max-width: 600px;
+    padding: 32px;
+    background-color: #f9f9f9;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.label {
+    font-size: 18px;
+    display: block;
+    margin: 10px 0;
+    color: #555555;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 8px;
+}
+
+.active-submit {
+    background-color: #68d3af;
+}
+
+.inactive-submit {
+    background-color: #bdc0c5;
+
+}
+
+.error-message {
+    color: red;
+}
+
+.invisible {
+    display: none;
+}

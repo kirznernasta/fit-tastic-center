@@ -1,0 +1,45 @@
+.article-table, td, th {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #545454;
+    word-wrap: break-word
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(104, 211, 175, 0.3);
+}
+
+td, th {
+    padding: 8px;
+}
+
+.full-text {
+    max-height: 160px;
+    overflow: scroll;
+}
+
+.article-table-image {
+    object-fit: contain;
+    width: 100%;
+}
+
+.button-table {
+    width: 100%;
+    margin: 16px 0;
+    border-radius: 16px;
+    color: #1c1e1c;
+}
+
+.link {
+    color: #1c1e1c;
+}
+
+.blue {
+    background-color: cornflowerblue;
+}
+
+.red {
+    background-color: crimson;
+}

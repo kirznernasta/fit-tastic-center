@@ -1,0 +1,17 @@
+.type-img {
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 32px;
+    border-radius: 16px;
+    box-shadow: #575760 16px 16px 16px;
+    transition: all .2s linear;
+}
+
+.type-img:hover {
+    transform: scale(1.05);
+}
+
+.type-name {
+    background: linear-gradient(to right, transparent, rgba(104, 211, 175, 0.5));
+    box-sizing: border-box;
+}

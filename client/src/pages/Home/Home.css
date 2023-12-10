@@ -1,0 +1,19 @@
+.home-wrapper {
+    margin: 16px;
+}
+
+html, body {
+    background-color: #ced0d8;
+}
+
+.logo-image {
+    border-radius: 16px;
+    box-shadow: #575760 16px 16px 16px;
+    float: left;
+    margin: 16px 32px 16px 0;
+}
+
+.quote {
+    margin: 16px 0;
+    background: linear-gradient(to left, transparent 0.5%, #f4f4f4);
+}

@@ -1,0 +1,20 @@
+
+.trainer-name {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(104, 211, 175, 0.5);
+}
+
+.trainer-img {
+    float: left;
+    margin-right: 32px;
+    margin-left: 16px;
+    border-radius: 16px;
+    box-shadow: #575760 16px 16px 16px;
+}
+
+.trainer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
